@@ -9,8 +9,7 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-/**
- * Japan
+/** Japan
  *
  * @created   2016-12-01
  * @version   1.0
@@ -20,8 +19,8 @@
  */
 class Japan
 {
-	/**
-	 * Use trait.
+	/** trait.
+	 *
 	 */
 	use OP_CORE;
 }

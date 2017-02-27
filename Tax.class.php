@@ -9,10 +9,12 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
+/** namespace
+ *
+ */
 namespace Japan;
 
-/**
- * Tax
+/** Tax
  *
  * @created   2016-12-01
  * @version   1.0
@@ -22,13 +24,12 @@ namespace Japan;
  */
 class Tax
 {
-	/**
-	 * Use trait.
+	/** trait.
+	 *
 	 */
 	use \OP_CORE;
 
-	/**
-	 * Calculate japanese consumer tax.
+	/** Calculate japanese consumer tax.
 	 *
 	 * @param integer $price
 	 * @param string  $date
@@ -42,8 +43,7 @@ class Tax
 		return round($price * $rate / 100);
 	}
 
-	/**
-	 * Get japanese consumer tax date.
+	/** Get japanese consumer tax date.
 	 *
 	 * <pre>
 	 * $rate = Tax::Rate(Time::Date());
