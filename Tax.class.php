@@ -55,7 +55,7 @@ class Tax
 	static function Rate($date)
 	{
 		if(!$date){
-			Notice::Set("Has not been set date.");
+			\Notice::Set("Has not been set date.");
 			return false;
 		}
 
